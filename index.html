@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="IMG/maisa2.png" alt="avatar da Maisa" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Maisa</p>
+        <h1>Meu nome é Maisa e isso é um pouco mais sobre mim: </h1>
+        <p>Eu tenho 16 anos estou no segundo ano do ensino medio e quero prestar vestibular para fisioterapia na usf e tambem tenho um cachorro o Lucky!</p>
+        <p>Sobre mim:</p>
+        <div>
+            <p class="badge bg-secondary">Amizades </p>
+            <p class="badge bg-secondary">Receitas </p>
+            <p class="badge bg-secondary">Familía </p>
+            <p class="badge bg-secondary">Cachorrinho</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Sobre mim:</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/projetomaisa2.jpeg" class="Amigas " alt="fotinha interclasse da escola ">
+                    <div class="card-body">
+                        <h5 class="card-title">Minhas Amizades </h5>
+                        <p class="card-text">Veja um pouquinho mais sobre minhas amizades e nosso momentos juntas 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            as fotos </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/comida.jpeg" class="Receitas" alt="Cookie de chocolate tradicional.">
+                    <div class="card-body">
+                        <h5 class="card-title">Minhas receitinhas:</h5>
+                        <p class="card-text">Veja mais de mim tentando ser boa na cozinha:</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja as fotos:</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/img-projetomaisa1.jpeg" class="Lucky" alt="passeio com o lucky ">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu cachorrinho lucky!!!!!
+                        </h5>
+                        <p class="card-text">Fotos do passeio e do dia a dia do lucky 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja as fotos:</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minhas amizades:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Fotos com as minhas amigas em momentos legasi que dicaram na memoria.</p>
+
+                   
+                    <img src="IMG/amigas.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Processo da minha receita:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>essa é uma foto do processo de preparo do cookie aonde ele ta pronto pra assar
+                    </p>
+
+                    </p>
+                    <img src="IMG/cookie.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">momentos do lucky:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>momentos com meu cachorinho lucky.</p>
+
+                    <img src="IMG/lucky2.jpeg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>s
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Maisa Gutierrez.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
